@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root{
+    --primary: #05F2F2;
+    --secundary: #05DBF2;
+    --terciary: #034AA6;
+    --fundo: #162C40;
+    --forLinks: #D94E5A;
+  }
+
+body{
+    background-color: var(--fundo);
+    color: white;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #mostrador{
+    margin: auto;
+    
+    width: 252px;
+    height: 80px;
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+  
+  }
+  
+  p{
+    float: left; 
+    margin-right: 10px;
+    font-size: 30px;
+  } 
+  img{
+    border: 0;
+    width: 30px;
+    margin: auto;
+    
+  }
+  
+  .espaco{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #000;
+    float: left;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .tabuleiro{
+    width: 252px;
+    height: 252px;
+    margin: auto;
+  }
+  
+  
